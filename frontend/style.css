@@ -1,1 +1,5 @@
+body { font-family: Arial; padding: 20px; }
+form { display: grid; gap: 10px; width: 350px; }
+button { padding: 10px; cursor: pointer; }
+#results { margin-top: 20px; }
 

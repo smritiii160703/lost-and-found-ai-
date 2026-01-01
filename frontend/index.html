@@ -1,1 +1,31 @@
-<!-- frontend will go here -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>AI Lost & Found</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>AI Lost & Found Assistant</h2>
+
+<form id="reportForm">
+  <select name="type">
+    <option value="lost">Lost</option>
+    <option value="found">Found</option>
+  </select>
+
+  <input name="title" placeholder="Item title" required>
+  <textarea name="description" placeholder="Describe the item" required></textarea>
+  <input name="location" placeholder="Where?" required>
+  <input name="contact" placeholder="Email / Phone" required>
+  <input type="file" name="image">
+
+  <button type="submit">Submit</button>
+</form>
+
+<div id="results"></div>
+
+<script src="app.js"></script>
+</body>
+</html>
+
